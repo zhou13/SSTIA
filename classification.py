@@ -6,7 +6,7 @@ svc_x = range(0, len(train_x))
 fea_size = 92;
 
 for i in range(0, len(train_x)):
-	fea_len = len(x[i])
+	fea_len = len(train_x[i])
 	svc_x[i] = range(0, fea_size)
 	for j in range(0, fea_size):
 		svc_x[i][j] = 0
