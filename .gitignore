@@ -1,2 +1,4 @@
 SLC/
 SLR/
+*.pyc
+*.bin
