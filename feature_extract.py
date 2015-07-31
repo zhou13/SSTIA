@@ -5,6 +5,7 @@ import numpy as np
 import pickle
 import gc
 import sys
+import random
 
 SAMPLE_LENGTH = 5
 
@@ -18,10 +19,12 @@ def delta(mat):
     mat2 = np.roll(mat, shift=-1, axis=0)
     return (mat1 - mat2) / 2
 
+
 def delta_delta(mat):
     mat1 = np.roll(mat, shift=+1, axis=0)
     mat2 = np.roll(mat, shift=-1, axis=0)
     return (mat1 - 2 * mat + mat2) / 4
+
 
 def get_feature(filename):
     print(filename)
@@ -44,7 +47,9 @@ with open("SLR/TRAIN_INFO.txt", "r") as ftrain:
     ftrain.readline()
     language_index = {}
     total_index = 0
-    for iline, line in enumerate(ftrain):
+    all_lines = ftrain.readlines()
+    random.shuffle(all_lines)
+    for iline, line in enumerate(all_lines):
         filename, language = line.split()
 
         feat = get_feature("SLR/" + filename)

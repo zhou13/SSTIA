@@ -1,0 +1,97 @@
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 1.0
+       test score 0.899425287356
+GridSearchCV(cv=5, error_score='raise',
+       estimator=SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.0,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False),
+       fit_params={}, iid=True, loss_func=None, n_jobs=8,
+       param_grid=[{'gamma': [0.003, 0.0005], 'kernel': ['rbf'], 'C': [1, 3, 10, 50, 100]}],
+       pre_dispatch='2*n_jobs', refit=True, score_func=None, scoring=None,
+       verbose=0)
+Best parameters set found on development set:
+
+{'gamma': 0.003, 'kernel': 'rbf', 'C': 10}
+
+Grid scores on development set:
+
+0.849 (+/-0.053) for {'gamma': 0.003, 'kernel': 'rbf', 'C': 1}
+0.712 (+/-0.062) for {'gamma': 0.0005, 'kernel': 'rbf', 'C': 1}
+0.857 (+/-0.046) for {'gamma': 0.003, 'kernel': 'rbf', 'C': 3}
+0.792 (+/-0.042) for {'gamma': 0.0005, 'kernel': 'rbf', 'C': 3}
+0.857 (+/-0.045) for {'gamma': 0.003, 'kernel': 'rbf', 'C': 10}
+0.822 (+/-0.039) for {'gamma': 0.0005, 'kernel': 'rbf', 'C': 10}
+0.857 (+/-0.045) for {'gamma': 0.003, 'kernel': 'rbf', 'C': 50}
+0.813 (+/-0.028) for {'gamma': 0.0005, 'kernel': 'rbf', 'C': 50}
+0.857 (+/-0.045) for {'gamma': 0.003, 'kernel': 'rbf', 'C': 100}
+0.814 (+/-0.029) for {'gamma': 0.0005, 'kernel': 'rbf', 'C': 100}
+
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 1.0
+       test score 0.83908045977
+GridSearchCV(cv=5, error_score='raise',
+       estimator=SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.0,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False),
+       fit_params={}, iid=True, loss_func=None, n_jobs=8,
+       param_grid=[{'C': [1, 3, 10, 50, 100], 'kernel': ['rbf'], 'gamma': [0.003, 0.0005]}],
+       pre_dispatch='2*n_jobs', refit=True, score_func=None, scoring=None,
+       verbose=0)
+Best parameters set found on development set:
+
+{'C': 3, 'kernel': 'rbf', 'gamma': 0.003}
+
+Grid scores on development set:
+
+0.854 (+/-0.030) for {'C': 1, 'kernel': 'rbf', 'gamma': 0.003}
+0.721 (+/-0.043) for {'C': 1, 'kernel': 'rbf', 'gamma': 0.0005}
+0.866 (+/-0.032) for {'C': 3, 'kernel': 'rbf', 'gamma': 0.003}
+0.796 (+/-0.033) for {'C': 3, 'kernel': 'rbf', 'gamma': 0.0005}
+0.866 (+/-0.032) for {'C': 10, 'kernel': 'rbf', 'gamma': 0.003}
+0.823 (+/-0.046) for {'C': 10, 'kernel': 'rbf', 'gamma': 0.0005}
+0.866 (+/-0.032) for {'C': 50, 'kernel': 'rbf', 'gamma': 0.003}
+0.809 (+/-0.045) for {'C': 50, 'kernel': 'rbf', 'gamma': 0.0005}
+0.866 (+/-0.032) for {'C': 100, 'kernel': 'rbf', 'gamma': 0.003}
+0.809 (+/-0.045) for {'C': 100, 'kernel': 'rbf', 'gamma': 0.0005}
+
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 1.0
+       test score 0.870689655172
+GridSearchCV(cv=5, error_score='raise',
+       estimator=SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.0,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False),
+       fit_params={}, iid=True, loss_func=None, n_jobs=8,
+       param_grid=[{'kernel': ['rbf'], 'C': [1, 3, 10, 50, 100], 'gamma': [0.003, 0.0005]}],
+       pre_dispatch='2*n_jobs', refit=True, score_func=None, scoring=None,
+       verbose=0)
+Best parameters set found on development set:
+
+{'kernel': 'rbf', 'C': 3, 'gamma': 0.003}
+
+Grid scores on development set:
+
+0.845 (+/-0.018) for {'kernel': 'rbf', 'C': 1, 'gamma': 0.003}
+0.711 (+/-0.035) for {'kernel': 'rbf', 'C': 1, 'gamma': 0.0005}
+0.854 (+/-0.015) for {'kernel': 'rbf', 'C': 3, 'gamma': 0.003}
+0.791 (+/-0.036) for {'kernel': 'rbf', 'C': 3, 'gamma': 0.0005}
+0.854 (+/-0.015) for {'kernel': 'rbf', 'C': 10, 'gamma': 0.003}
+0.813 (+/-0.029) for {'kernel': 'rbf', 'C': 10, 'gamma': 0.0005}
+0.854 (+/-0.015) for {'kernel': 'rbf', 'C': 50, 'gamma': 0.003}
+0.807 (+/-0.017) for {'kernel': 'rbf', 'C': 50, 'gamma': 0.0005}
+0.854 (+/-0.015) for {'kernel': 'rbf', 'C': 100, 'gamma': 0.003}
+0.807 (+/-0.017) for {'kernel': 'rbf', 'C': 100, 'gamma': 0.0005}

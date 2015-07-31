@@ -1,0 +1,195 @@
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 1.0
+       test score 0.244252873563
+SVC(C=5, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.01,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.163793103448
+SVC(C=5, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.03,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 0.99936
+       test score 0.448275862069
+SVC(C=5, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.001,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.471264367816
+SVC(C=5, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.003,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 0.69408
+       test score 0.477011494253
+SVC(C=5, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.0001,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.244252873563
+SVC(C=10, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.01,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.163793103448
+SVC(C=10, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.03,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.436781609195
+SVC(C=10, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.001,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.471264367816
+SVC(C=10, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.003,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 0.76768
+       test score 0.494252873563
+SVC(C=10, cache_size=200, class_weight=None, coef0=0.0, degree=3,
+  gamma=0.0001, kernel='rbf', max_iter=-1, probability=False,
+  random_state=None, shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.244252873563
+SVC(C=20, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.01,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.163793103448
+SVC(C=20, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.03,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.439655172414
+SVC(C=20, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.001,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.471264367816
+SVC(C=20, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.003,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 0.8288
+       test score 0.474137931034
+SVC(C=20, cache_size=200, class_weight=None, coef0=0.0, degree=3,
+  gamma=0.0001, kernel='rbf', max_iter=-1, probability=False,
+  random_state=None, shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.244252873563
+SVC(C=50, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.01,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.163793103448
+SVC(C=50, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.03,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.439655172414
+SVC(C=50, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.001,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.471264367816
+SVC(C=50, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.003,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 0.90432
+       test score 0.451149425287
+SVC(C=50, cache_size=200, class_weight=None, coef0=0.0, degree=3,
+  gamma=0.0001, kernel='rbf', max_iter=-1, probability=False,
+  random_state=None, shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.244252873563
+SVC(C=100, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.01,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.163793103448
+SVC(C=100, cache_size=200, class_weight=None, coef0=0.0, degree=3, gamma=0.03,
+  kernel='rbf', max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.439655172414
+SVC(C=100, cache_size=200, class_weight=None, coef0=0.0, degree=3,
+  gamma=0.001, kernel='rbf', max_iter=-1, probability=False,
+  random_state=None, shrinking=True, tol=0.001, verbose=False)
+       train score 1.0
+       test score 0.471264367816
+SVC(C=100, cache_size=200, class_weight=None, coef0=0.0, degree=3,
+  gamma=0.003, kernel='rbf', max_iter=-1, probability=False,
+  random_state=None, shrinking=True, tol=0.001, verbose=False)
+       train score 0.94336
+       test score 0.442528735632
+SVC(C=100, cache_size=200, class_weight=None, coef0=0.0, degree=3,
+  gamma=0.0001, kernel='rbf', max_iter=-1, probability=False,
+  random_state=None, shrinking=True, tol=0.001, verbose=False)
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 1.0
+       test score 0.439655172414
+ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features='auto', max_leaf_nodes=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=10000, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 1.0
+       test score 0.425287356322
+ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features='auto', max_leaf_nodes=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 0.37856
+       test score 0.347701149425
+ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=2, max_features='auto', max_leaf_nodes=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=1000, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 0.5456
+       test score 0.396551724138
+ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=5, max_features='auto', max_leaf_nodes=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=1000, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 0.792
+       test score 0.390804597701
+ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=8, max_features='auto', max_leaf_nodes=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=1000, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)

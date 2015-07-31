@@ -1,0 +1,64 @@
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 0.58464
+       test score 0.474137931034
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=1000, random_state=None)
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 1.0
+       test score 0.82183908046
+ExtraTreesClassifier(bootstrap=False, class_weight=None, criterion='gini',
+           max_depth=None, max_features='auto', max_leaf_nodes=None,
+           min_samples_leaf=1, min_samples_split=2,
+           min_weight_fraction_leaf=0.0, n_estimators=10000, n_jobs=1,
+           oob_score=False, random_state=None, verbose=0, warm_start=False)
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 0.90304
+       test score 0.609195402299
+GradientBoostingClassifier(init=None, learning_rate=0.1, loss='deviance',
+              max_depth=3, max_features=None, max_leaf_nodes=None,
+              min_samples_leaf=1, min_samples_split=2,
+              min_weight_fraction_leaf=0.0, n_estimators=100,
+              random_state=None, subsample=1.0, verbose=0,
+              warm_start=False)
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 0.36704
+       test score 0.399425287356
+OneVsOneClassifier(estimator=SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=2500, n_jobs=1,
+       penalty='l2', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False),
+          n_jobs=8)
+
+>>>> Loading
+>>>> Loading finished
+(3473, 195)
+>>>> Data prepared
+>>>> Training Model
+       train score 0.36704
+       test score 0.350574712644
+OneVsOneClassifier(estimator=SGDClassifier(alpha=0.0001, average=False, class_weight=None, epsilon=0.1,
+       eta0=0.0, fit_intercept=True, l1_ratio=0.15,
+       learning_rate='optimal', loss='hinge', n_iter=25000, n_jobs=1,
+       penalty='l2', power_t=0.5, random_state=None, shuffle=True,
+       verbose=0, warm_start=False),
+          n_jobs=8)
